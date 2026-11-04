@@ -1,0 +1,8 @@
+[package]
+name = "statx"
+version = "0.1.0"
+edition = "2024"
+description = "The statx Command Queries Extended Linux File Metadata, Showing Available Timestamps and File Attributes Alongside Mount and Device Identifiers"
+
+[dependencies]
+clap = { version = "=4.6.6", features = ["derive"] }
